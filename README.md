@@ -38,15 +38,15 @@ readme_content = """
 ## 🗂️ 项目目录结构（核心）
 
 QTXD_AI_system/ 
-├── QTXD_AI/ # 主控目录，入口启动器 
-├── QTXD_income_backend/ # 自动赚钱系统 
-├── QTXD_notions_tasks/ # Notion 自动任务处理 
-├── QTXD_spider_tasks/ # 多平台爬虫合集 
-├── QTXD_task_fetcher/ # 任务信息抓取与筛选 
-├── QTXD_video_automation/ # 视频生成脚本模块 
+├── QTXD_AI/ # 主控目录，入口启动器
+├── QTXD_income_backend/ # 自动赚钱系统
+├── QTXD_notions_tasks/ # Notion 自动任务处理
+├── QTXD_spider_tasks/ # 多平台爬虫合集
+├── QTXD_task_fetcher/ # 任务信息抓取与筛选
+├── QTXD_video_automation/ # 视频生成脚本模块
 ├── QTXD_scheduler/ # 任务调度模块 
-├── QTXD_WebPlatform/ # 网站前端集成页面 
-├── QTXD_AI_obsidian/ # Obsidian 写入模块 
+├── QTXD_WebPlatform/ # 网站前端集成页面
+├── QTXD_AI_obsidian/ # Obsidian 写入模块
 ├── scripts/ # 通用脚本工具 
 └── config/ # 通用配置文件（如 settings.py、requirements.txt）
 
