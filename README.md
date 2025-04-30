@@ -1,61 +1,41 @@
-from datetime import datetime
+# 🌐 QTXD_AI_system · 擎天AI全自动创富系统
 
-# 获取当前时间戳，格式为：2025-04-23 23:59
-timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-
-# 生成新的 README.md 内容（包含时间戳）
-readme_content = f"""# QTXD_AI · 自动化创富系统 🧠💸
-> 专为内容创作者、副业工程师设计的全自动赚钱系统！
-
-![language](https://img.shields.io/github/languages/top/feizei150/QTXD_AI)
-![last-commit](https://img.shields.io/github/last-commit/feizei150/QTXD_AI)
-![repo-size](https://img.shields.io/github/repo-size/feizei150/QTXD_AI)
-![license](https://img.shields.io/github/license/feizei150/QTXD_AI)
+> 一人打造自己的自动赚钱公司，从副业接单 → 热榜视频 → 内容发布 → 项目管理 → 数据分析一站搞定！
 
 ---
 
-## 🧠 理念：一个人 ≈ 一家公司 💼
+## 🧱 模块结构
 
-本项目旨在帮助“一个人打造自己的 AI 业务体”，用极低的成本实现：
-- 多平台内容采集
-- 智能脚本生成
-- 自动视频发布
-- 任务接单与财务结算
-- 项目闭环与版本归档
-- 本地知识管理与同步采用 Obsidian 构建每日学习日志与 AI 知识地图
-
-你 ≠ 打工人，而是 CEO！本系统就是你的小型自动赚钱公司。
-
----
-
-## 📦 项目模块导航
-
-| 模块名 | 功能说明 |
-|--------|----------|
-| 🔍 QTXD_spider_tasks_v2 | 多平台热榜内容采集（知乎 / 小红书 / B站 / 微博） |
-| 🧠 QTXD_notion_tasks_v2 | Notion写入 + ChatGPT 日志同步 |
-| 🎬 QTXD_video_automation_v2 | 视频脚本生成 + 剪映剪辑发布 |
-| 💰 QTXD_finance_tracking | 记账、月支出、财务统计 |
-| 📒 QTXD_notion_tasks | Obsidian 日志自动同步 + ChatGPT 对话导出 |
-| 💼 QTXD_task_fetcher_v2 | 抓取副业悬赏任务，自动写入 Notion，支持筛选提醒 |
+| 模块目录 | 功能说明 |
+|----------|----------|
+| `QTXD_AI` | 自动赚钱主流程（热榜爬虫 + Ollama总结 + Notion写入） |
+| `QTXD_Freelance` | 副业任务自动抓取与接单匹配系统 |
+| `QTXD_PartySummarizer` | 党建文档总结器，自动生成个人总结与汇报材料 |
+| `QTXD_AI_Obsidian` | 本地知识管理与每日学习笔记（Obsidian） |
+| `QTXD_WebPlatform` | 网页前端平台展示与入口部署 |
+| `QTXD_scheduler` | 自动化执行、定时任务调度 |
+| `config/` | 全局配置、Notion API密钥、本地路径设置等 |
 
 ---
 
-## 🧰 技术栈
+## ⚙️ 一键脚本说明
 
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=fff)
-![Notion API](https://img.shields.io/badge/-Notion-000?logo=notion&logoColor=fff)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?logo=github-actions&logoColor=fff)
-![Ollama](https://img.shields.io/badge/-Ollama-green)
-![Obsidian](https://img.shields.io/badge/-Obsidian-4B4BFF?logo=obsidian&logoColor=white)
-![Scrapy](https://img.shields.io/badge/-Scrapy-88C400?logo=scrapy&logoColor=fff)
+| 脚本文件 | 功能说明 |
+|----------|----------|
+| `start_all.bat` | 启动所有核心任务 |
+| `run_everything.bat` | 执行所有自动化流程 |
+| `upload_to_github.bat` | 一键提交并推送所有更改 |
+| `pull_from_github.bat` | 一键拉取最新主仓数据 |
+| `setup_github_actions.bat` | 初始化 GitHub Actions 自动部署任务 |
 
 ---
 
-## 🚀 快速开始
+## 💡 使用说明
 
-```bash
-cd QTXD_xxx_v2
-python -m venv venv
-activate_venv.bat
-pip install -r requirements.txt
+1. 本系统结构统一，所有模块可独立运行，也可统一调度。
+2. 所有自动化任务围绕 Notion + Obsidian + GitHub 形成闭环。
+3. 本地主控开发在 PC，笔记本可用 `git pull` 获取系统。
+
+---
+
+> 本系统将持续更新更多 AI 模块，打造完整的副业自动化平台。
