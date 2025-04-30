@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "c06b524923ba6d08",
+    "type": "split",
+    "children": [
+      {
+        "id": "365a73ceb9119e81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d80e62ac2c00029a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e7e662b30acbd1c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f8e2a20a3bfbbf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cc11aed6e3511ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "72b622aca87216a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d359bc9e35bc6dc6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3f837940345195e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "25d3347f82122674",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34fba4e15d75299d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian/Templates/学习总结模板.md.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "学习总结模板.md 的反向链接列表"
+            }
+          },
+          {
+            "id": "ecfe13e449f0b165",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian/Templates/学习总结模板.md.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "学习总结模板.md 的出链列表"
+            }
+          },
+          {
+            "id": "5e013530f2010f4f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b3b007aaca5b377c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian/Templates/学习总结模板.md.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "学习总结模板.md 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "d80e62ac2c00029a",
+  "lastOpenFiles": [
+    "obsidian/Templates/学习总结模板.md.md",
+    "README.md",
+    "obsidian/learning_logs/2025-04-29.md",
+    "obsidian/learning_logs",
+    "obsidian/scripts/learning_logs",
+    "obsidian/scripts/write_to_obsidian.py",
+    "obsidian/scripts/script_name.py",
+    "obsidian/scripts",
+    "obsidian/Templates/学习主题模板.md.md",
+    "obsidian/Templates/学习任务模板.md.md",
+    "obsidian/Templates/学习笔记模板.md.md",
+    "obsidian/Templates/每日学习日志模板.md.md",
+    "obsidian/04_学习笔记&ob_知识库/99_每日学习日志/2025-04-17.md",
+    "obsidian/04_学习笔记&ob_知识库/99_每日学习日志/2025-04-17.md.md",
+    "obsidian/04_学习笔记&ob_知识库/99_每日学习日志/2025-04-19.md",
+    "obsidian/Templates/🧠 ChatGPT 对话记录 - {{date}}.md",
+    "obsidian/关键词分类/Python.md.md",
+    "obsidian/关键词分类/Ollama.md.md",
+    "obsidian/关键词分类/Notion.md.md",
+    "obsidian/关键词分类/ChatGPT.md.md"
+  ]
+}
