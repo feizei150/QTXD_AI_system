@@ -1,0 +1,8 @@
+{
+    "spider_paths": {
+        "zhihu": "F:/QTXD_AI_system/QTXD_spider_tasks/spider_zhihu_to_notion.py"
+    },
+    "notion_sync_path": "F:/QTXD_AI_system/QTXD_notion_tasks/notion_writer.py",
+    "git_commit_path": "F:/QTXD_AI_system",
+    "commit_message_prefix": "自动提交："
+}

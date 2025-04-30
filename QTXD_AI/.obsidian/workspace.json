@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "a8b54a0a930467d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "fda7f318cf0e1871",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d33cd1c91d207a4a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6fb992ec4ed4946e",
+    "type": "split",
+    "children": [
+      {
+        "id": "47f39e02d82c8fcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ce61b3ea32f901e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a297d56a92f5a1e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "5b9b2a0af447e5cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d98c6663155c9cc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "36219e422322d978",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c3abecc9d04aa2f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "4c4a583f3d40e638",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "6aad73e4cddb18f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "db7e2e7144c4ed80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "8ce61b3ea32f901e",
+  "lastOpenFiles": [
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/WHEEL",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/RECORD",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/licenses",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/METADATA",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info/INSTALLER",
+    "QTXD_income_backend/venv/Lib/site-packages/httpcore-1.0.9.dist-info",
+    "QTXD_income_backend/venv/Lib/site-packages/flask/sansio/__pycache__/scaffold.cpython-39.pyc",
+    "QTXD_income_backend/venv/Lib/site-packages/flask/sansio/__pycache__/blueprints.cpython-39.pyc",
+    "QTXD_income_backend/venv/Lib/site-packages/flask/json/__pycache__/tag.cpython-39.pyc",
+    "QTXD_income_backend/venv/Lib/site-packages/flask/json/__pycache__/__init__.cpython-39.pyc",
+    "QTXD_income_backend/venv/Lib/site-packages/flask/sansio/README.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/tests/fixtures/fonts/u13079_PyGameMono-8.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/tests/fixtures/fonts/A_PyGameMono-8.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_static/pygame_tiny.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_static/plus.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_static/minus.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_static/file.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_images/tom_radians.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_images/tom_formulae.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_images/tom_event-flowchart.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/pygame/docs/generated/_images/tom_basic.png",
+    "QTXD_party_summarizer/venv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/flask/sansio/README.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/httpcore-1.0.8.dist-info/licenses/LICENSE.md",
+    "QTXD_party_summarizer/venv/Lib/site-packages/idna-3.10.dist-info/LICENSE.md",
+    "QTXD_party_summarizer/README.md",
+    "QTXD_income_backend/venv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "QTXD_income_backend/venv/Lib/site-packages/idna-3.10.dist-info/LICENSE.md",
+    "QTXD_income_backend/venv/Lib/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md"
+  ]
+}

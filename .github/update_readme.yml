@@ -1,0 +1,34 @@
+name: 🛠️ 自动更新 README
+
+on:
+  schedule:
+    - cron: '0 14 * * *' # 每天22:00（北京时间）
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: ⬇️ 拉取仓库
+      uses: actions/checkout@v3
+
+    - name: 🐍 设置 Python 环境
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.8'
+
+    - name: 📦 安装依赖（如有 requirements.txt）
+      run: |
+        pip install -r requirements.txt || echo "无依赖"
+
+    - name: 🔁 执行自动生成脚本
+      run: python auto_generate_readme.py
+
+    - name: ✅ 提交修改
+      run: |
+        git config --global user.email "action-bot@github.com"
+        git config --global user.name "Auto README Bot"
+        git add .
+        git commit -m "📝 每日自动更新模块 README" || echo "无变更"
+        git push
