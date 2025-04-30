@@ -1,7 +1,7 @@
 # app.py
 
 from flask import Flask, render_template_string, request
-from notion_writer import write_apply_to_notion, write_activate_to_notion
+from QTXD_AI_system.notion_writer import write_apply_to_notion, write_activate_to_notion
 from email_sender import send_email
 from dotenv import load_dotenv
 import os

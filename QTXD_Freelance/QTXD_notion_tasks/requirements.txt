@@ -1,3 +1,0 @@
-notion-client
-openai
-python-dotenv
